@@ -1,0 +1,4 @@
+name: "cfpopd-landing-page"
+output_dir: 'docs'
+title: "CFPOPD"
+output: html_document
