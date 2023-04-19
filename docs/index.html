@@ -13,8 +13,8 @@
 
 <title>CFPOPD</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
 pre code {
   padding: 0;
 }
@@ -100,8 +104,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -109,16 +113,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -168,9 +165,20 @@ pre code {
 </div>
 
 
-<p><a href="http://apps.predictfev1.com/clinical/"><img src="cfpopd_screenshot.png" alt="CFPOPD" /></a></p>
+<p><a href="http://apps.predictfev1.com/clinical/"><img
+src="cfpopd_screenshot.png" alt="CFPOPD" /></a></p>
 <div id="httpapps.predictfev1.comclinical" class="section level2">
-<h2><a href="http://apps.predictfev1.com/clinical/">http://apps.predictfev1.com/clinical/</a></h2>
+<h2><a
+href="http://apps.predictfev1.com/clinical/">http://apps.predictfev1.com/clinical/</a></h2>
+<hr />
+<p><a href="http://apps.predictfev1.com/built_environment/"><img
+src="built_environment_screenshot.png"
+alt="Built Environment" /></a></p>
+</div>
+<div id="httpapps.predictfev1.combuilt_environment"
+class="section level2">
+<h2><a
+href="http://apps.predictfev1.com/built_environment/">http://apps.predictfev1.com/built_environment/</a></h2>
 </div>
 
 
