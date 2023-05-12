@@ -13,8 +13,10 @@ navbar:
   bg: light
   title: "Predict FEV1"
   left:
-    - text: ""
+    - text: "Cystic Fibrosis"
       href: index.html
+    - text: "LAM"
+      href: lamp.html
     - text: "Background"
       href:  background.html
 
