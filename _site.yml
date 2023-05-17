@@ -1,4 +1,22 @@
 name: "cfpopd-landing-page"
 output_dir: 'docs'
-title: "CFPOPD"
-output: html_document
+title: "Predict FEV1"
+output:
+  html_document:
+    theme:
+      version: "5"
+      bg: "#FFFFFF"
+      fg: "#9E4679"
+      primary: "#02AAC8"
+      secondary: "#76BC44"
+navbar:
+  bg: light
+  title: "Predict FEV1"
+  left:
+    - text: "Cystic Fibrosis"
+      href: index.html
+    - text: "LAM"
+      href: lamp.html
+    - text: "Background"
+      href:  background.html
+

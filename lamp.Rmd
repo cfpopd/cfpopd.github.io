@@ -1,0 +1,5 @@
+# LAMP
+
+[![LAMP](lamp_screenshot.png)](https://medmonitoring.shinyapps.io/LAMPApp/)
+
+## [https://medmonitoring.shinyapps.io/LAMPApp/](https://medmonitoring.shinyapps.io/LAMPApp/)

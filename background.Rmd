@@ -1,0 +1,4 @@
+# Background
+
+**Cystic Fibrosis Point of Personalized Detection (CFPOPD)** is an interactive web application of a predictive model to forecast rapid lung function decline in cystic fibrosis (CF). The CFPOPD tab is based on the published clinical prediction model is based on de-identified clinical/demographic data available in the Cystic Fibrosis Foundation Patient Registry. The 44 patient profiles presented here have been anonymized. Features are described below through a particular case. To change the patient being viewed, use the drop-down box on the upper left of the app interface.
+
